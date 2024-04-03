@@ -5,7 +5,6 @@ import gzip
 import json
 import logging
 import os
-from jsonschema import validate
 import re
 import shlex
 import subprocess
@@ -1430,3 +1429,4 @@ class Svif(Json):
     Software Visualization Interchange Format (Satrio Adi Rukmono).
     """
     file_ext = "svif"
+    
