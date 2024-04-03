@@ -129,9 +129,10 @@
     <tool file="phenotype_association/master2pg.xml" />
   </section>
   <section id="moonshot" name="Moonshot">
-    <tool file="moonshot/AST-Creation-Tool/zip_to_spif.xml" />
-    <tool file="moonshot/Github-Extraction-Tool/github_extraction.xml" />
-    <tool file="moonshot/classviz/classviz.xml" />
+    <tool file="moonshot/Extraction-Tool/github_extraction.xml" />
+    <tool file="moonshot/Code-to-SPIF-Tool/zip_to_spif.xml" />
+    <tool file="moonshot/SPIF-to-SVIF-Tool/owl_to_json.xml" />
+    <tool file="moonshot/Classviz-Tool/classviz.xml" />
   </section>
   <!--
   <section id="interactivetools" name="Interactive tools">
