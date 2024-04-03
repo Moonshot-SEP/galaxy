@@ -1428,5 +1428,6 @@ class Svif(Json):
     """
     Software Visualization Interchange Format (Satrio Adi Rukmono).
     """
+    
     file_ext = "svif"
     
