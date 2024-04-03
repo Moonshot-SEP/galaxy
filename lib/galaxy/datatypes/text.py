@@ -1421,3 +1421,13 @@ class FormattedDensity(Text):
             (lines[9].strip() == end_header and lines[10].strip() == grid_points)
             or (lines[9].strip() == end_header_spin and lines[10].strip() == grid_points_spin)
         )
+
+
+@build_sniff_from_prefix
+class Svif(Json):
+    """
+    Software Visualization Interchange Format (Satrio Adi Rukmono).
+    """
+    
+    file_ext = "svif"
+    

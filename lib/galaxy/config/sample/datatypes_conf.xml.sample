@@ -988,6 +988,7 @@
     <datatype extension="chain" type="galaxy.datatypes.chain:Chain" display_in_upload="true"/>
     <!-- Moonshot datatypes -->
     <datatype extension="spif" type="galaxy.datatypes.triples:Spif" display_in_upload="true"/>
+    <datatype extension="svif" type="galaxy.datatypes.text:Svif" display_in_upload="true"/>
   </registration>
   <sniffers>
     <!--
